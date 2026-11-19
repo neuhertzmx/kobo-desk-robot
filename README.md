@@ -34,7 +34,7 @@ It also blinks and looks around on its own.
 ```
 kobo-desk-robot/
 ├── cad/        STL files for printing (+ STEP)
-├── firmware/   KoboFirmware.ino
+├── KoboFirmware/  KoboFirmware.ino (open this folder in Arduino IDE)
 ├── prompt/     The original prompt I gave the AI
 └── README.md
 ```
@@ -123,7 +123,7 @@ Kobo v1 is the base for a bigger robot: a larger screen, a properly sized batter
 
 ## License
 
-- **Code** (`/firmware`): [MIT](LICENSE)
+- **Code** (`/KoboFirmware`): [MIT](LICENSE)
 - **CAD and STL files** (`/cad`): [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Use them, modify them and share them with credit, but not for commercial purposes.
 
 Made by **Neuhertz** · [YouTube](https://www.youtube.com/@neuhertz) · neuhertzmx@gmail.com
