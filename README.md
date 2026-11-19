@@ -33,7 +33,7 @@ It also blinks and looks around on its own.
 
 ```
 kobo-desk-robot/
-├── cad/        STL files for printing (+ STEP)
+├── cad/        STL files for printing + STEP assembly
 ├── KoboFirmware/  KoboFirmware.ino (open this folder in Arduino IDE)
 ├── prompt/     The original prompt I gave the AI
 └── README.md
@@ -47,7 +47,20 @@ kobo-desk-robot/
 |---|---|
 | Waveshare ESP32-S3 Touch LCD 1.69" | ST7789V2 display (240×280), CST816T touch, built-in passive buzzer (GPIO42). Use the **new** board version (name printed on the PCB) |
 | USB-C cable | Kobo v1 runs on USB power only |
-| 3D printed enclosure | PLA, FDM |
+| 3D printed enclosure | PLA, FDM. 3 parts, see below |
+
+### Printed parts (`/cad`)
+
+| File | Part |
+|---|---|
+| `kobo-body.stl` | Main body |
+| `kobo-head.stl` | Head (holds the board and screen) |
+| `kobo-button.stl` | Button actuator |
+| `kobo-enclosure.step` | Full enclosure assembly, for editing (board not included) |
+
+Suggested settings: PLA, 0.2 mm layers, 3 walls, 20 % infill. **Print a tolerance test first:** printed holes usually come out 0.1–0.3 mm smaller than designed.
+
+The 3D model of the board itself is available from [Waveshare](https://www.waveshare.com/wiki/ESP32-S3-Touch-LCD-1.69).
 
 ### What changed from the AI's design
 
