@@ -10,7 +10,7 @@ The idea behind the project: I asked an AI to design a desk robot around parts I
 
 - Episode 1 — [The AI design](https://youtu.be/xmR51z2DC2A)
 - Episode 2 — [My AI-designed robot was overcharging its battery](https://youtu.be/8F7hFOqv2Bs)
-- Episode 3 — Assembly and the honest result *(link coming soon)*
+- Episode 3 — Assembly and the honest result (https://youtu.be/z2wDX6sUgg8)
 
 ---
 
